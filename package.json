@@ -1,0 +1,22 @@
+{
+  "name": "neusquad-prototype",
+  "version": "1.0.0",
+  "description": "NeuSquad: clickable concept prototype of a squad layer inside Tata Neu",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:single": "node build/build.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "vite": "5.4.10",
+    "@vitejs/plugin-react": "4.3.3",
+    "esbuild": "0.23.1"
+  }
+}
